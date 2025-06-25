@@ -1,7 +1,7 @@
-`timescale 1ns / 1ps
-
-module op_sig_counter(
-    input clk,start,rst,
+module pulse_every_10_cycles 
+    (
+    input wire clk,start,rst,
+    
     output reg op_sig
     );
     
@@ -41,23 +41,3 @@ module op_sig_counter(
     end
     
 endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
